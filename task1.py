@@ -19,7 +19,9 @@ class Circle:
 
 c = Circle(5)
 print(c.radius)
+
 c.radius = 10
 print(c.radius)
+
 c.radius = -5
 print(c.radius)

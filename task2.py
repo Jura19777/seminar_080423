@@ -14,6 +14,7 @@ class MyClass(metaclass=Singleton):
 
 a = MyClass()
 b = MyClass()
+
 print(a is b)
 print(id(a))
 print(id(b))
